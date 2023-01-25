@@ -1,8 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-h1, #button-container {
   text-align: center;
 }
 
@@ -27,13 +24,9 @@ h1, #button-container {
   background-color: whitesmoke;
 }
 
-.hovering {
-  background-color: black;
-}
-
 button {
-  height: 30px;
-  width: 90px;
+  height: 40px;
+  width: 140px;
   border: none;
   border-radius: 20px;
 }
@@ -44,4 +37,8 @@ button:hover {
 
 #button-container {
   margin-top: 20px;
+}
+
+#monochrome-button {
+  margin-left: 180px;
 }
